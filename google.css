@@ -1,0 +1,393 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body {
+	background: url(arbol.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	width: 95%;
+}
+
+
+header .contenedor {
+	margin:20px;
+	text-align: right;
+	color:#000;
+	width: 100%;
+
+
+}
+
+header .contenedor .menu .caja a{
+	margin: 5px;
+	padding: 2px;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	font-family: "calibri";
+	text-decoration: none;
+
+}
+
+header .contenedor .menu .caja a:hover{
+	border-bottom: 1px solid;
+
+
+}
+header .contenedor .menu .caja .tres{
+	border: 2px solid rgba(000,000,000,0.1);
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+}
+
+
+header .contenedor .menu .caja .tres:hover {
+	border: 2px solid rgba(82, 190, 128,0.2);
+	background: rgba(82, 190, 128,0.3);
+	border-radius: 200%;
+	text-align: center;
+
+}
+
+header .contenedor .menu .caja .cuatro  {
+	background:#27AE60;
+	width: 30px;
+	text-align: center;
+	height: 30px;
+	position: relative;
+	/*bottom: -3px;*/
+	border:3px solid #27AE60 ;
+	border-radius: 200%;
+	font-size: 25px;
+}
+
+header .contenedor .menu .caja .cuatro:hover{
+	border:3px solid #52BE80;
+	border-radius: 200%;
+
+}
+
+section .contenedor {
+	width: 800px;
+	height: 400px;
+	font-size: 40px;
+	margin: 0px auto;
+	position: relative;
+	left: 5%;
+	bottom: 140px;
+	/*background: #ABB2B9;*/
+}
+
+section .contenedor {
+	display: block;
+}
+section .contenedor .titulo {
+	color: #fff;
+	text-align: center;
+	font-size: 65px;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	padding: 0px;
+
+
+}
+section .contenedor .titulo h1{
+	display: flex;
+
+}
+
+section .contenedor .titulo h1 span{
+	margin: 0px;
+	padding: 1px;
+
+}
+
+
+section .contenedor .titulo h1 .letra-G{
+	color: #4285f4;
+
+}
+section .contenedor .titulo h1 .letra-O{
+	color: #ea4335;
+
+}
+
+section .contenedor .titulo h1 .letra-O2{
+	color: #fbbc05;
+
+}
+section .contenedor .titulo h1 .letra-G2{
+	color: #4285f4;
+
+}
+section .contenedor .titulo h1 .letra-L{
+	color: #34a853;
+
+}
+section .contenedor .titulo h1 .letra-E{
+	color: #ea4335;
+
+}
+
+
+section .contenedor .imagenes{
+	/*background: #ccc;*/
+	width: 550px;
+	height: 45px;
+	position: relative;
+	top: 190px;
+	margin: 200px auto;
+	border: 2px solid rgba(94, 110, 77,0.8);
+	border-radius: 50px;
+	background: #fff;
+}
+
+
+section .contenedor .imagenes {
+	color: #000;
+	
+}
+
+section .contenedor .imagenes i{
+	font-size: 20px;
+	color: rgba(171, 178, 185,1);
+	position: absolute;
+	left: 20px;
+	top: 14px;
+
+
+}
+
+section .contenedor .imagenes input{
+	font-size: 20px;
+	width: 80%;
+	height: 90%;
+	color: #f2f2f2;
+	position: absolute;
+	left: 50px;
+	top: 0px;
+	border:none;
+	font-size: 18px;
+	border:1px solid #fff;
+
+}
+
+section .contenedor .imagenes input[type="text"]:focus{
+	outline: none;
+	border:1px solid #fff;
+	font-size: 18px;
+	padding: 0px 0px 2px 0px; 
+	color: rgba(0,0,0,0.75);
+
+}
+section .contenedor .imagenes input[type="text"]:focus::placeholder{
+		color: transparent;
+
+}
+
+/*section .contenedor .imagenes input[type="text"]:active{
+	
+	border:1px solid #fff;
+	font-size: 18px;
+	padding: 0px 0px 2px 0px; 
+	color: rgba(0,0,0,0.75)*/
+
+section .contenedor .imagenes button {
+	position: absolute;
+	bottom: 45px;
+	right: 10%;
+
+}
+section .contenedor .imagenes button i{
+	color: #4285f4;
+	font-size: 22px;
+	cursor: pointer;
+	
+}
+
+section .contenedor .links {
+	background: transparent;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	bottom: 120px;
+	margin: 200px auto;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	
+}
+
+section .contenedor .links .foto1{
+	background: transparent;
+	width: 20%;
+	height: 100%
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+
+	
+
+}
+
+section .contenedor .links .foto1:hover{
+	background: rgba(0,0,0,0.2) ;
+	width: 20%;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+section .contenedor .links .foto1 img{
+	border:1px solid rgba(0,0,0,0.3);
+	background: #E5E8E8 ;
+	border-radius: 100px  ;
+
+}
+
+section .contenedor .links .foto2{
+	background: transparent;
+	width: 20%;
+	height: 100%
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+
+
+	
+
+}
+
+section .contenedor .links .foto2:hover{
+	background: rgba(0,0,0,0.2) ;
+	width: 20%;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+section .contenedor .links .foto2 img{
+	border:1px solid rgba(0,0,0,0.3);
+	background: #E5E8E8 ;
+	border-radius: 100px  ;
+}
+
+section .contenedor .links .foto3{
+	background: transparent;
+	width: 20%;
+	height: 100%
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+
+
+	
+
+}
+
+
+section .contenedor .links .foto3:hover{
+	background: rgba(0,0,0,0.2) ;
+	width: 20%;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+section .contenedor .links .foto3 img{
+	border:1px solid rgba(0,0,0,0.3);
+	background: #E5E8E8 ;
+	border-radius: 100px  ;
+}
+
+
+section .contenedor .links .foto4{
+	background: transparent;
+	width: 20%;
+	height: 100%
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+
+
+	
+
+}
+
+section .contenedor .links .foto4:hover{
+	background: rgba(0,0,0,0.2) ;
+	width: 20%;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+section .contenedor .links .foto4 img{
+	border:1px solid rgba(0,0,0,0.3);
+	background: #E5E8E8 ;
+	border-radius: 100px  ;
+}
+
+p.nombre{
+	font-size: 13px;
+	background: #FFF;
+	color: rgba(0,0,0,1);
+	padding: 2px 8px;
+	border-radius: 100px;
+	font-family: 'Segoe UI', 'roboto', 'arial';
+}
+
+
+
+
+
+/*ection .contenedor .links .foto2{
+	background: transparent;
+	width: 20%;
+	color: #fff;
+	border:2px solid #f2f2f2;
+
+}
+section .contenedor .links .foto2 img{
+	border:1px solid rgba(0,0,0,0.3);
+	background: #E5E8E8;
+	border-radius: 100px  ;
+	
+}
+
+section .contenedor .links .foto3{
+	background: transparent;
+	width: 20%;
+	color: #fff;
+	border:2px solid #f2f2f2;
+
+
+	
+}
+section .contenedor .links .foto3 img{
+	border:1px solid rgba(0,0,0,0.3);
+	background: #E5E8E8;
+	border-radius: 100px  ;
+	
+}
+section .contenedor .links .foto4{
+	background: transparent;
+	width: 20%;
+	height: 50px;
+	color: #fff;
+
+	
+}
+section .contenedor .links .foto4 img{
+	border:1px solid rgba(0,0,0,0.3);
+	background: #E5E8E8;
+	border-radius: 100px  ;
+	
+}
